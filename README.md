@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # pizza-hot
 A pizza delivery app
 =======
