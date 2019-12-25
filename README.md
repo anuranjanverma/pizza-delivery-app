@@ -1,3 +1,34 @@
+1. Install php, mysql, nginx or XAMPP/MAMP/WAMP/LAMP.
+   Clone GitHub repo for this project locally.
+   Note: Make sure you have git installed locally on your computer first.
+   
+2. Go to root directory and follow below command:
+   > git clone https://github.com/anuranjanverma/pizza-delivery-app.git
+   
+3. Install Composer Dependencies
+   > composer install
+   
+4. Install NPM Dependencies
+   > npm install
+   
+5. Create a copy of your .env file
+   > cp .env.example .env
+   
+6. Generate an app encryption key
+   > php artisan key:generate
+   
+7. Create an empty database for our application
+
+8. In the .env file, add database information to allow Laravel to connect to the database. In the .env file fill in the DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, and DB_PASSWORD options to match the credentials of the database you just created. This will allow us to run migrations and seed the database in the next step.
+
+9. Migrate the database
+   > php artisan migrate
+   
+10. Seed the database
+    > php artisan db:seed
+    
+That is all you need to get started on a project. Of course some projects will have specific steps that only apply to that project, and be sure to read the readme.md file on Github before you start customizing a project.
+
 # pizza-hot
 A pizza delivery app
 =======
